@@ -5,13 +5,72 @@
     <description>Minimalist Jekyll theme for technical writing blog.</description>
     <link>https://navaem.github.io/</link>
     <atom:link href="https://navaem.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 19 Aug 2020 23:22:30 -0400</pubDate>
-    <lastBuildDate>Wed, 19 Aug 2020 23:22:30 -0400</lastBuildDate>
+    <pubDate>Thu, 20 Aug 2020 14:24:28 -0400</pubDate>
+    <lastBuildDate>Thu, 20 Aug 2020 14:24:28 -0400</lastBuildDate>
     <generator>Jekyll v4.0.1</generator>
     
       <item>
-        <title>Connecting A Fitbit to a Raspberry Pi</title>
-        <description>&lt;p&gt;Full blog coming soon…&lt;/p&gt;
+        <title>Connecting a Fitbit to a Raspberry Pi 4</title>
+        <description>&lt;p&gt;&lt;strong&gt;If you doubted whether connecting a Fitbit to a Raspberry Pi 4 is possible, let
+me assure you it is and that I’ve done it.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I bought a Raspberry Pi 4 in January and have been trying to sink my teeth into a good
+project where I can use it. At the same time, I had been doing quite a bit of Android
+development on this project that used Fitbit Versa Lites to measure health data. I don’t
+ own an Android device, and I didn’t want to buy one just for this project. This situation
+ led me to think, 
+&lt;em&gt;If Raspberry Pis run Linux and Android is a Linux flavor, surely I can boot Android
+on my Raspberry Pi.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;how-does-a-fitbit-versa-lite-connect-to-a-phone&quot;&gt;How does a Fitbit Versa Lite connect to a phone?&lt;/h2&gt;
+
+&lt;p&gt;The Fitbit Versa Lite is the cheapest smartwatch offering in the Fitbit lineup. Being the 
+least expensive, Fitbit has cut cost on this model by leaving out some desired features
+like wifi and GPS, but the Versa Lite still has a leg up on the even cheaper tracker lineup 
+because of its LCD screen. Lacking wifi capability means the Versa Lite must always 
+be tethered via Bluetooth to a phone with the Fitbit app installed. Unfortunately, Fitbit 
+requires all communication with their devices to go through their app in one way or another.&lt;/p&gt;
+
+&lt;h2 id=&quot;how-to-run-android-on-raspberry-pi&quot;&gt;How to run Android on Raspberry Pi:&lt;/h2&gt;
+
+&lt;p&gt;I found a great port of an existing open-source Android version,
+&lt;a href=&quot;https://lineageos.org/&quot;&gt;LineageOS&lt;/a&gt;, to Raspberry Pi done by KonstaKang
+&lt;a href=&quot;https://konstakang.com/devices/rpi4/LineageOS17.1/&quot;&gt;here&lt;/a&gt;. 
+Using this port greatly simplified the task at hand as KonstaKang has already
+taken care of the heavy lifting for us, for example integrating the OS and the firmware 
+and drivers. Once we flash the port onto our microSD (install instructions:
+&lt;a href=&quot;https://www.raspberrypi.org/documentation/installation/installing-images/linux.md&quot;&gt;Linux&lt;/a&gt;,
+&lt;a href=&quot;https://www.raspberrypi.org/documentation/installation/installing-images/mac.md&quot;&gt;Mac&lt;/a&gt;,
+&lt;a href=&quot;https://www.raspberrypi.org/documentation/installation/installing-images/windows.md&quot;&gt;Windows&lt;/a&gt;) 
+that the Raspberry Pi uses to boot, we can start up our Raspberry Pi running Lineage OS.&lt;/p&gt;
+
+&lt;p&gt;Unfortunately, Lineage OS comes without gapps and the Google Play Store, meaning we
+won’t be able to install the Fitbit App.&lt;/p&gt;
+
+&lt;h2 id=&quot;how-to-setup-and-install-google-play-store-konstakang-lineage-171&quot;&gt;How to setup and install Google Play Store Konstakang Lineage 17.1.&lt;/h2&gt;
+&lt;p&gt;Watch this video and follow its instructions to install the Google Play Store on your Raspberry Pi 4.&lt;/p&gt;
+&lt;div class=&quot;video-container&quot;&gt;
+    &lt;iframe src=&quot;https://www.youtube.com/embed/3i2h9JgPPME&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;
+&lt;p&gt;Video Link: &lt;a href=&quot;https://www.youtube.com/watch?v=3i2h9JgPPME&amp;amp;feature=emb_title&quot;&gt;https://www.youtube.com/watch?v=3i2h9JgPPME&amp;amp;feature=emb_title&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Once your device reboots, you can install the Fitbit app using the Google Play Store and sync 
+your Fitbit with your Raspberry Pi just like you would any Android. If you need help, you can
+always visit the &lt;a href=&quot;https://help.fitbit.com/articles/en_US/Help_article/1873.htm&quot;&gt;Fitbit help docs&lt;/a&gt;.
+Your Raspberry Pi’s Bluetooth chip must be functional because the Fitbit Versa
+Lite can only communicate via Bluetooth.&lt;/p&gt;
+
+&lt;h2 id=&quot;congratulations&quot;&gt;Congratulations!&lt;/h2&gt;
+
+&lt;p&gt;At this point, you should be able to connect your Fitbit to your Raspberry Pi, and you can begin
+thinking of Fitbit development ideas. Fitbit has a pretty good 
+&lt;a href=&quot;https://dev.fitbit.com/&quot;&gt;development SDK&lt;/a&gt; and developer docs. Doing a 
+&lt;a href=&quot;https://github.com/search?q=topic%3Afitbit-devrel+org%3AFitbit&amp;amp;type=Repositories&quot;&gt;quick search on Github&lt;/a&gt;,
+you’ll find lots of open source projects that you can take inspiration from or fork.&lt;/p&gt;
+
+&lt;p&gt;Happy coding!&lt;/p&gt;
+
 </description>
         <pubDate>Wed, 19 Aug 2020 00:00:00 -0400</pubDate>
         <link>https://navaem.github.io/2020/connecting-a-fitbit-to-a-raspberrypi/</link>
@@ -207,9 +266,9 @@ But let's throw in a &amp;lt;b&amp;gt;tag&amp;lt;/b&amp;gt;.
   &lt;/ol&gt;
 &lt;/div&gt;
 </description>
-        <pubDate>Wed, 30 Dec 2015 00:00:00 -0500</pubDate>
-        <link>https://navaem.github.io/2015/markdown-cheatsheet-demo/</link>
-        <guid isPermaLink="true">https://navaem.github.io/2015/markdown-cheatsheet-demo/</guid>
+        <pubDate>Mon, 03 Feb 2020 00:00:00 -0500</pubDate>
+        <link>https://navaem.github.io/2020/markdown-cheatsheet-demo/</link>
+        <guid isPermaLink="true">https://navaem.github.io/2020/markdown-cheatsheet-demo/</guid>
         
         
       </item>

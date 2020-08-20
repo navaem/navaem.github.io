@@ -5,9 +5,141 @@
     <description>Minimalist Jekyll theme for technical writing blog.</description>
     <link>https://navaem.github.io/</link>
     <atom:link href="https://navaem.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 20 Aug 2020 14:24:28 -0400</pubDate>
-    <lastBuildDate>Thu, 20 Aug 2020 14:24:28 -0400</lastBuildDate>
+    <pubDate>Thu, 20 Aug 2020 14:55:58 -0400</pubDate>
+    <lastBuildDate>Thu, 20 Aug 2020 14:55:58 -0400</lastBuildDate>
     <generator>Jekyll v4.0.1</generator>
+    
+      <item>
+        <title>CS3651 - Fall 2020 - Peter Presti Syllabus</title>
+        <description>&lt;p&gt;&lt;em&gt;For CS undergrads who are in the Devices thread, we can choose either CS 3651 or &lt;a href=&quot;http://hamblen.ece.gatech.edu/489X/&quot;&gt;ECE 4180&lt;/a&gt; for our devices in the real world credit. I want to post the syllabus for CS 3651 to help out prospective takers of this class. I had trouble deciding whether to take CS 3651 or ECE 4180, and being able to see a new CS 3651 syllabus (the last one I was able to find was from &lt;a href=&quot;https://www.cc.gatech.edu/classes/AY2013/cs3651_summer/syllabus.html&quot;&gt;Summer 2013&lt;/a&gt;) would have helped me make the decision.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;I want to thank &lt;a href=&quot;http://s1.imtc.gatech.edu/people/peter-presti&quot;&gt;Peter Presti&lt;/a&gt; for permitting me to post this syllabus online.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;course-syllabus&quot;&gt;Course Syllabus&lt;/h1&gt;
+&lt;h2 id=&quot;cs-3651---prototyping-intelligent-appliances&quot;&gt;CS 3651 - Prototyping Intelligent Appliances&lt;/h2&gt;
+&lt;h2 id=&quot;fall-2020&quot;&gt;Fall 2020&lt;/h2&gt;
+
+&lt;p&gt;Remote / Hybrid Touchpoints - Parts and tools in CCB 337&lt;/p&gt;
+
+&lt;h2 id=&quot;meeting-times&quot;&gt;Meeting Times&lt;/h2&gt;
+&lt;p&gt;CS 3651 A: TTh 2-3:15 PM&lt;/p&gt;
+
+&lt;p&gt;Office Hours: TTh 3:15PM - 4:00 PM&lt;/p&gt;
+
+&lt;p&gt;TA Hours: F 1:00 PM - 4:00 PM&lt;/p&gt;
+
+&lt;h2 id=&quot;contact&quot;&gt;Contact&lt;/h2&gt;
+&lt;h3 id=&quot;instructor&quot;&gt;Instructor&lt;/h3&gt;
+&lt;p&gt;Peter Presti - peter.presti &lt;span style=&quot;opacity: 0.5&quot;&gt;(at)&lt;/span&gt; imtc 
+&lt;span style=&quot;opacity: 0.5&quot;&gt;dot&lt;/span&gt; gatech &lt;span style=&quot;opacity: 0.5&quot;&gt;dot&lt;/span&gt; edu&lt;/p&gt;
+
+&lt;p&gt;Tingyu Cheng&lt;/p&gt;
+
+&lt;h2 id=&quot;textbook&quot;&gt;Textbook&lt;/h2&gt;
+&lt;p&gt;There is no requirement to purchase a book for the class.&lt;/p&gt;
+
+&lt;p&gt;We recommend &lt;a href=&quot;https://www.amazon.com/Practical-Electronics-Inventors-Fourth-Scherz/dp/1259587541/&quot;&gt;Practical Electronics for Inventors by Paul Scherz&lt;/a&gt; (Links to an external site.). It may be available as a reserved book in the library and as an ebook from the library. However, a good deal of information will also come from Internet resources and posted video lectures.&lt;/p&gt;
+
+&lt;p&gt;Useful Reading:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.instructables.com/id/How-to-Build-your-Everything-Really-Really-Fast/&quot;&gt;http://www.instructables.com/id/How-to-Build-your-Everything-Really-Really-Fast/&lt;/a&gt; (Links to an external site.)&lt;/p&gt;
+
+&lt;h2 id=&quot;course-overview&quot;&gt;Course Overview&lt;/h2&gt;
+&lt;p&gt;CS 3651, Prototyping Intelligent Appliances, is designed to provide practical, hands-on experience for electronic device prototyping and development. The course material focuses on elementary electronic skills building, microcontroller firmware development, simple physical prototyping, and inventive problem solving. The course is lab-based (referred to as skill demonstrations) with an open-ended final project.&lt;/p&gt;
+
+&lt;h2 id=&quot;skill-demonstrations&quot;&gt;Skill Demonstrations&lt;/h2&gt;
+&lt;p&gt;These tasks demonstrate understanding of the concepts learned from in class or assigned readings/videos. Some skill demos will be knowledge based, while others will be based on hands-on skills with electronic components. Each skill demo will be signed off by either an instructor or TA when due.&lt;/p&gt;
+
+&lt;p&gt;The assignment and due dates of each skill demonstration will be indicated on the course schedule. Some skill demos will require a submission via Canvas, while others will be checked off by an instructor or teaching assistant during class or office hours. Additional check off times may be arranged at our discretion via email.&lt;/p&gt;
+
+&lt;p&gt;If you don’t complete a skill demonstration before the next class period, you can still get credit for it with a penalty. See the late work policy below.&lt;/p&gt;
+
+&lt;p&gt;Collaboration with other students for skill demos is expected and encouraged but all code written, wires plugged into breadboards, designs created, etc. must come from yourself or publicly available resources. If you find a library or resource (ex, an arduino library) that seems to make the skill demo ‘too easy’ (i.e. if using the resource prevents you from learning the intended skill), please let us know.&lt;/p&gt;
+
+&lt;h2 id=&quot;team-project&quot;&gt;Team Project&lt;/h2&gt;
+&lt;p&gt;In this class, you will complete a group project in groups of up to 2 people. Your team will propose a project, and work with us to negotiate goals that are both challenging but still feasible within the semester. Be aware that it is likely that some of the materials for this project will need to be purchased by your group.&lt;/p&gt;
+
+&lt;p&gt;The goal of the project is to demonstrate some of the skills that you have learned in the class and to teach you to design a system with mechanical, electrical, and software components. More detail on the project will be provided before the withdrawal deadline.&lt;/p&gt;
+
+&lt;p&gt;As reflected in the course grade breakdown, you will be graded on your project itself, as well as a presentation given during the finals period, and a write-up to be submitted with the project.&lt;/p&gt;
+
+&lt;h2 id=&quot;course-expectations&quot;&gt;Course Expectations&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;Class attendance is expected but not tracked.  It is your responsibility to inquire about material missed if you are absent.&lt;/li&gt;
+  &lt;li&gt;Keep up with assigned readings and videos.&lt;/li&gt;
+  &lt;li&gt;Take responsibility for your coursework submissions; it is your job to make sure that you successfully turned in what you meant to turn in. Be sure to verify your submission. This is how you make sure that you get credit for the work you do.&lt;/li&gt;
+  &lt;li&gt;Be prepared when you go to get help from a TA or your instructor. Bring your work with you.&lt;/li&gt;
+  &lt;li&gt;Expect to leave some time free each week during the open lab hours. If you have other classes scheduled during all of the office hours, let us know.&lt;/li&gt;
+  &lt;li&gt;Take initiative. Begin your assignments early and if you think you need help, come to office hours prepared to ask questions. Use the resources that are provided to you, and be determined to succeed from the start.&lt;/li&gt;
+  &lt;li&gt;Read, understand, and follow the Georgia Tech Academic Honor Code
+    &lt;h2 id=&quot;lab-policy&quot;&gt;Lab Policy&lt;/h2&gt;
+    &lt;p&gt;Please abide by all safety rules (stated and posted). Use common sense and always err on the side of caution. Respect the lab tools, materials, and supplies as well as your classmates and others who use the space. You will be expected to help clean up your portion of the lab at the end of every class period.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;grading-policy&quot;&gt;Grading Policy&lt;/h2&gt;
+&lt;p&gt;50% Skill Demos&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Much of the course will focus around applying the lessons learned from readings and other pre-class learning activities. These skill demonstrations will be assigned in class, and will be due by the end of class on the date indicated.&lt;/li&gt;
+  &lt;li&gt;Skill demos can be turned in late: see the rather lenient late work policy below.&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Quizzes: There may be one or more quizzes (announced or unannounced) that will be graded and included as a skill demo.
+50% Class Project&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;The latter segment of the course will focus on the completion of a group project that relates to the materials covered in this course. This will be subdivided as follows:
+    &lt;ul&gt;
+      &lt;li&gt;40% Work completed&lt;/li&gt;
+      &lt;li&gt;10% Presentation and supporting documentation&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;letter-grades&quot;&gt;Letter Grades&lt;/h2&gt;
+&lt;p&gt;Letter grade assignments are given according to the following cutoffs with no rounding:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;89.5 &amp;lt;= A&lt;/li&gt;
+  &lt;li&gt;79.5 &amp;lt;= B &amp;lt; 89.5&lt;/li&gt;
+  &lt;li&gt;69.5 &amp;lt;= C &amp;lt; 79.5&lt;/li&gt;
+  &lt;li&gt;59.5 &amp;lt;= D &amp;lt; 69.5&lt;/li&gt;
+  &lt;li&gt;0 &amp;lt;= F &amp;lt; 59.5&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;late-work&quot;&gt;Late Work&lt;/h2&gt;
+&lt;p&gt;Late turn-in for anything other than skill demos is generally not accepted without prior discussion with the instructor or TA, or a discussion with the Dean of Students’ office.&lt;/p&gt;
+
+&lt;p&gt;Skill demos are due at the end of class on the day that they are due. They can be turned in late with 10% docked per class period that they are late, up to a maximum of 3 class periods late. All skill demos must be turned in before the Friday of the week before finals.&lt;/p&gt;
+
+&lt;p&gt;For example, a skill demo due on 6/5/2018 is worth up to 100% if turned in before the end of class on Monday, 6/5, up to 90% before the end of class on Wednesday 6/7, worth up to 80% before the end of class on Monday 6/12, and worth up to 70% before end of class on 6/14. Such a skill demo could not be turned in after the end of class on 6/14.&lt;/p&gt;
+
+&lt;h2 id=&quot;timely-handling-of-grade-disputes&quot;&gt;Timely handling of grade disputes&lt;/h2&gt;
+&lt;p&gt;Disputes of grading on assignments, projects, etc. must be presented in writing or email to (as opposed to discussed with) the instructors within one week of their posting, whichever is later.&lt;/p&gt;
+
+&lt;h2 id=&quot;email-policy&quot;&gt;Email Policy&lt;/h2&gt;
+&lt;p&gt;Please try to use your official Georgia Tech email address when sending email to the instructor and TAs. Additionally, please prepend [cs3651] to the beginning of the subject of your email. Please also indicate who you are within your email, as many people have several email addresses.&lt;/p&gt;
+
+&lt;h2 id=&quot;assignment-submission&quot;&gt;Assignment Submission&lt;/h2&gt;
+&lt;p&gt;Most skill demos will be submitted in person, but others may be submitted via Canvas. Assignments turned in electronically should be submitted using PDF or plain text files. Do NOT submit .doc, .docx, .odt, etc. Electronic assignments will be submitted through Canvas in the “Assignments” tab. Emailing your assignments to an instructor or TA does not count.&lt;/p&gt;
+
+&lt;h2 id=&quot;lab-hoursaccess&quot;&gt;Lab Hours/Access&lt;/h2&gt;
+&lt;p&gt;Upon completion of the safety overview (in class), students will be given Buzzcard access to the CCB lab space.&lt;/p&gt;
+
+&lt;p&gt;In addition, instructors will be in the lab at certain times (in addition to during scheduled class time) to provide support for completing coursework. These ‘office hours’ will be marked on the lab calendar in Canvas.&lt;/p&gt;
+
+&lt;p&gt;Access to other lab spaces, such as the GVU Prototyping Lab or Invention Studio, is given at the discretion of the lab manager associated with each space.&lt;/p&gt;
+
+&lt;h2 id=&quot;course-summary&quot;&gt;Course Summary:&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;There hasn’t been anything posted yet except a pretest. I can
+update this as the semester advances.&lt;/em&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 20 Aug 2020 00:00:00 -0400</pubDate>
+        <link>https://navaem.github.io/2020/gatech-cs3651-syllabus/</link>
+        <guid isPermaLink="true">https://navaem.github.io/2020/gatech-cs3651-syllabus/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Connecting a Fitbit to a Raspberry Pi 4</title>
